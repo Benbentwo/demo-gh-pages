@@ -1,0 +1,23 @@
+url:      'http://localhost:4000'
+baseurl:  ''
+
+gist:
+  noscript: false
+
+sass:
+  style: expanded
+  line_numbers: true
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:            0.0.2
+
+github:
+  repo:             https://github.com/department-of-veterans-affairs/DevOps-Coms-Public/

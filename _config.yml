@@ -1,48 +1,30 @@
-# Build settings
-markdown: kramdown
-theme: uswds-jekyll
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            OI&T DevOps Handbook
+tagline:          VA DevOps Transformation
+description:      "A comprehensive guide to the Department of Veterans Affairs DevOps Transformation"
+#url:              https://department-of-veterans-affairs.github.io/DevOps-Coms-Public/
+url:              https://department-of-veterans-affairs.github.io/DevOps-Comms_r2/
+#baseurl:          https://department-of-veterans-affairs.github.io/DevOps-Coms-Public/
+baseurl:          https://department-of-veterans-affairs.github.io/DevOps-Comms_r2/
+                  # the optional subpath of your site, e.g. "/my-jekyll-site/"
+                  # This will apply to all pages in your Jekyll site.
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
+
 plugins:
   - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-title: DevOps Handbook
-description: OI&T DevOps Handbook
+# Custom vars
+version:            0.0.2
 
-# GitHub information
-# This is used for adding an edit this page link to the footer
-github_info:
-  organization: Department of Veterans Affairs
-  repository: DevOps-Comms_r2
-  default_branch: master
-
-# Configuration for setting the site width to 100%
-# To enable, uncomment the following line
-# site_width: wide
-
-# Configuration for Google Analytics, add your UA code here:
-# google_analytics_ua: UA-????????-??
-
-# Configuration for DAP, add your agency ID here:
-# dap_agency: GSA
-
-# Uncomment to enable AnchorJS functionality on docs layout.
-# See https://github.com/bryanbraun/anchorjs for more information.
-# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
-
-# To enable search, uncomment the search section
-# You will need to setup a search account with search.gov
-# https://search.usa.gov/signup
-# Your search_site_handle value is from the search.gov settings page.
-
-# search_site_handle: searchgov-site-handle
-
-# Configuration for projects and team collections
-# See https://jekyllrb.com/docs/collections/ for more information about collections.
-# collections:
-#   projects:
-#     output: true
-#   team:
-#     output: true
-
-# Compress Sass
-sass:
-  style: compressed
+github:
+#  repo:             https://github.com/department-of-veterans-affairs/DevOps-Coms-Public/
+  repo:             https://github.com/department-of-veterans-affairs/DevOps-Comms_r2/
