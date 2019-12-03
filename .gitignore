@@ -1,0 +1,14 @@
+.idea/
+*.iml
+
+.vscode/
+
+#Various temporary created while building/running jx.
+_site/
+
+# vim swap files
+*.swp
+
+#OSX system files.
+**/.DS_Store
+
