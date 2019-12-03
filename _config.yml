@@ -28,3 +28,23 @@ version:            0.0.2
 github:
 #  repo:             https://github.com/department-of-veterans-affairs/DevOps-Coms-Public/
   repo:             https://github.com/department-of-veterans-affairs/DevOps-Comms_r2/
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Section to replace _data of uswds-jekyll
+# IMPORTANT NOTE - changing these values requires you re serve the page, hence why it is better to use a _data folder!
+  # TODO reimplement uswds-jekyll's _data folder for fast refreshing.
+  # the config.yml is like your deploy config, since for the most part that SHOULDN't change we should implement _data
+footer:
+  type: medium
+  top:
+    text: Return to top
+    href: '#'
+  links: footer #goes into a navigation.yaml
+  heading: OI&T DevOps Handbook
+  logos:
+    - src: assets/img/va-logo.png
+      alt: 18F
+      external: true

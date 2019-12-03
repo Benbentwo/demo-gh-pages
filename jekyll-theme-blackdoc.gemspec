@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Black Theme for Jekyll}
   spec.homepage      = "https://github.com/karloespiritu/BlackDoc"
   spec.license       = "MIT"
+  spec.files          = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
 
   spec.metadata["plugin_type"] = "theme"
 

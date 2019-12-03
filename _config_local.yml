@@ -5,7 +5,7 @@ gist:
   noscript: false
 
 sass:
-  style: expanded
+  style: compressed
   line_numbers: true
 paginate:         5
 # paginate_path:    '/page:num'
@@ -17,7 +17,7 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:            0.0.2
+version:            1.Local.Dev
 
 github:
   repo:             https://github.com/department-of-veterans-affairs/DevOps-Coms-Public/
