@@ -1,0 +1,14 @@
+.idea/
+*.iml
+
+.vscode/
+
+_site/
+.jekyll-cache/
+
+# vim swap files
+*.swp
+
+#OSX system files.
+**/.DS_Store
+

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-29T22:02:53-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">AbleVets Handbook</title><subtitle>A comprehensive guide to building kickass products serving our nations veterans</subtitle><entry><title type="html">AbleOps Release</title><link href="http://localhost:4000/2019/07/29/ableops_reelase.html" rel="alternate" type="text/html" title="AbleOps Release" /><published>2019-07-29T00:00:00-04:00</published><updated>2019-07-29T00:00:00-04:00</updated><id>http://localhost:4000/2019/07/29/ableops_reelase</id><content type="html" xml:base="http://localhost:4000/2019/07/29/ableops_reelase.html">&lt;p&gt;&lt;a href=&quot;http://staging.vsp-ablevets.com&quot;&gt;AbleOps&lt;/a&gt; is a NoOps self-service platform for developers, testers, and product owners.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;NoOps (no operations) is the concept that an IT environment can become so automated and abstracted from the underlying infrastructure that there is no need for a dedicated team to manage software in-house.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.ablevets.com/vsp/glam-dashboard-service&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../AbleOps.png&quot; alt=&quot;AbleOps&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">AbleOps is a NoOps self-service platform for developers, testers, and product owners.</summary></entry></feed>

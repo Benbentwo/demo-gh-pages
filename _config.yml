@@ -6,8 +6,10 @@ highlighter:      rouge
 title:            OI&T DevOps Handbook
 tagline:          VA DevOps Transformation
 description:      "A comprehensive guide to the Department of Veterans Affairs DevOps Transformation"
-url:              https://department-of-veterans-affairs.github.io/DevOps-Coms-Public/
-baseurl:          https://department-of-veterans-affairs.github.io/DevOps-Coms-Public/
+url:              https://department-of-veterans-affairs.github.io/DevOps-Coms-Public
+#url:              https://department-of-veterans-affairs.github.io/DevOps-Comms_r2
+#baseurl:          https://department-of-veterans-affairs.github.io/DevOps-Coms-Public/
+#baseurl:          https://department-of-veterans-affairs.github.io/DevOps-Comms_r2
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
@@ -21,7 +23,102 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:            0.0.2
+version:            0.1.0
 
 github:
-  repo:             https://github.com/department-of-veterans-affairs/DevOps-Coms-Public/
+  repo:             https://github.com/department-of-veterans-affairs/DevOps-Coms-Public
+#  repo:             https://github.com/department-of-veterans-affairs/DevOps-Comms_r2
+sass:
+  sass_dir: _sass
+  style: compressed
+  line_numbers: true
+
+# Section to replace _data of uswds-jekyll
+# IMPORTANT NOTE - changing these values requires you re serve the page, hence why it is better to use a _data folder!
+  # TODO reimplement uswds-jekyll's _data folder for fast refreshing.
+  # the config.yml is like your deploy config, since for the most part that SHOULDN't change we should implement _data
+footer:
+  type: medium  # slim / medium / big
+  top:
+    text: Return to top
+    href: '#'
+  links: footer #goes into a navigation.yaml
+  heading: OI&T DevOps Handbook
+  logos:
+    - src: assets/img/va-logo.png
+      alt: 18F
+      external: true
+
+header:
+  usa_banner: true
+  type: extended
+  logo:
+    src: assets/img/logo.png
+    alt: 18F
+  primary:
+    links: primary
+  secondary:
+    links: secondary
+
+navigation:
+  primary:
+#    - text: Documentation
+#      href: /docs/
+#    - text: Navigation section
+#      links:
+#        - text: Demo link A
+#          href: /two/a/
+#        - text: Demo link B
+#          href: /two/b/
+#        - text: Demo link C
+#          href: /two/c/
+#        - text: Demo link D
+#          href: /two/a/
+#        - text: Demo link E
+#          href: /two/b/
+#        - text: Demo link F
+#          href: /two/c/
+#    - text: Referenced section
+#      links: footer
+#    - text: External link
+#      href: https://18f.gsa.gov
+#      external: true
+    - text: VA DevOps Handbook
+      links:
+        - text: DevOps Practices
+          href: /devops_plays.html
+    - text: User Feedback
+      href: /measure_kpis.html
+    - text: DevOps Tool Chain
+      href: /va-devops-tools.html
+    - text: DevOps Release Process
+      href: /va-release.html
+  secondary:
+    - text: Documentation
+      href: /docs/
+    - text: Theme
+      href: /theme/
+  docs:
+    - text: Sidenav Documentation
+      href: /docs/
+    - text: Sidenav Navigation section
+      links:
+        - text: Demo link A
+          href: /two/a/
+        - text: Demo link B
+          href: /two/b/
+        - text: Demo link C
+          href: /two/c/
+    - text: Sidenav Referenced section
+      links: footer
+    - text: Sidenav External link
+      href: https://18f.gsa.gov
+      external: true
+  footer:
+    - text: Documentation
+      href: /docs/
+    - text: Demo link
+      href: /demo/
+    - text: External link
+      href: https://18f.gsa.gov
+      external: true

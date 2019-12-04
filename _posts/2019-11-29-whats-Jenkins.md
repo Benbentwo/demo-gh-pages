@@ -1,5 +1,5 @@
-# Jenkins
+## Jenkins
 
-## Build great things at any scale
+### Build great things at any scale
 
-### The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project. 
+ The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project. 
