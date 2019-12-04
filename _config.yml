@@ -53,7 +53,7 @@ header:
   usa_banner: true
   type: extended
   logo:
-    src: assets/img/logo.png
+    src: assets/img/seal.png
     alt: 18F
   primary:
     links: primary
@@ -94,31 +94,35 @@ navigation:
     - text: DevOps Release Process
       href: /va-release.html
   secondary:
-    - text: Documentation
-      href: /docs/
-    - text: Theme
-      href: /theme/
-  docs:
-    - text: Sidenav Documentation
-      href: /docs/
-    - text: Sidenav Navigation section
-      links:
-        - text: Demo link A
-          href: /two/a/
-        - text: Demo link B
-          href: /two/b/
-        - text: Demo link C
-          href: /two/c/
-    - text: Sidenav Referenced section
-      links: footer
-    - text: Sidenav External link
-      href: https://18f.gsa.gov
+    - text: Vets.gov
+      href: https://www.va.gov/
       external: true
-  footer:
-    - text: Documentation
-      href: /docs/
-    - text: Demo link
-      href: /demo/
-    - text: External link
-      href: https://18f.gsa.gov
-      external: true
+    - text: Top-Menu-2
+      href: /
+    - text: Top-Menu-3
+      href: /
+
+#  docs:
+#    - text: Sidenav Documentationa
+#      href: /docsa/
+#    - text: Sidenav Navigation section
+#      links:
+#        - text: Demo link A
+#          href: /two/a/
+#        - text: Demo link B
+#          href: /two/b/
+#        - text: Demo link C
+#          href: /two/c/
+#    - text: Sidenav Referenced section
+#      links: footer
+#    - text: Sidenav External link
+#      href: https://18f.gsa.gov
+#      external: true
+#  footer:
+#    - text: Documentationb
+#      href: /docs/
+#    - text: Demo link
+#      href: /demo/
+#    - text: External link
+#      href: https://18f.gsa.gov
+#      external: true
