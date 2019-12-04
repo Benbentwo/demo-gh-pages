@@ -7,9 +7,9 @@ title:            OI&T DevOps Handbook
 tagline:          VA DevOps Transformation
 description:      "A comprehensive guide to the Department of Veterans Affairs DevOps Transformation"
 #url:              https://department-of-veterans-affairs.github.io/DevOps-Coms-Public/
-url:              https://department-of-veterans-affairs.github.io/DevOps-Comms_r2/
+url:              https://department-of-veterans-affairs.github.io/DevOps-Comms_r2
 #baseurl:          https://department-of-veterans-affairs.github.io/DevOps-Coms-Public/
-baseurl:          https://department-of-veterans-affairs.github.io/DevOps-Comms_r2/
+#baseurl:          https://department-of-veterans-affairs.github.io/DevOps-Comms_r2
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
                   # This will apply to all pages in your Jekyll site.
 
@@ -27,11 +27,11 @@ version:            0.0.2
 
 github:
 #  repo:             https://github.com/department-of-veterans-affairs/DevOps-Coms-Public/
-  repo:             https://github.com/department-of-veterans-affairs/DevOps-Comms_r2/
+  repo:             https://github.com/department-of-veterans-affairs/DevOps-Comms_r2
 sass:
   sass_dir: _sass
   style: compressed
-
+  line_numbers: true
 
 # Section to replace _data of uswds-jekyll
 # IMPORTANT NOTE - changing these values requires you re serve the page, hence why it is better to use a _data folder!
@@ -53,9 +53,8 @@ header:
   usa_banner: true
   type: extended
   logo:
-    src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
+    src: assets/img/logo.png
     alt: 18F
-    external: true
   primary:
     links: primary
   secondary:
