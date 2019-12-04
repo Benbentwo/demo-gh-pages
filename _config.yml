@@ -63,27 +63,37 @@ header:
 
 navigation:
   primary:
-    - text: Documentation
-      href: /docs/
-    - text: Navigation section
+#    - text: Documentation
+#      href: /docs/
+#    - text: Navigation section
+#      links:
+#        - text: Demo link A
+#          href: /two/a/
+#        - text: Demo link B
+#          href: /two/b/
+#        - text: Demo link C
+#          href: /two/c/
+#        - text: Demo link D
+#          href: /two/a/
+#        - text: Demo link E
+#          href: /two/b/
+#        - text: Demo link F
+#          href: /two/c/
+#    - text: Referenced section
+#      links: footer
+#    - text: External link
+#      href: https://18f.gsa.gov
+#      external: true
+    - text: VA DevOps Handbook
       links:
-        - text: Demo link A
-          href: /two/a/
-        - text: Demo link B
-          href: /two/b/
-        - text: Demo link C
-          href: /two/c/
-        - text: Demo link D
-          href: /two/a/
-        - text: Demo link E
-          href: /two/b/
-        - text: Demo link F
-          href: /two/c/
-    - text: Referenced section
-      links: footer
-    - text: External link
-      href: https://18f.gsa.gov
-      external: true
+        - text: DevOps Practices
+          href: /devops_plays.html
+    - text: User Feedback
+      href: /measure_kpis.html
+    - text: DevOps Tool Chain
+      href: /va-devops-tools.html
+    - text: DevOps Release Process
+      href: /va-release.html
   secondary:
     - text: Documentation
       href: /docs/
