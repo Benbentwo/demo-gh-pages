@@ -3,8 +3,8 @@
 
 .vscode/
 
-#Various temporary created while building/running jx.
 _site/
+.jekyll-cache/
 
 # vim swap files
 *.swp
