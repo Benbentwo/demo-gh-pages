@@ -38,7 +38,7 @@ sass:
   # TODO reimplement uswds-jekyll's _data folder for fast refreshing.
   # the config.yml is like your deploy config, since for the most part that SHOULDN't change we should implement _data
 footer:
-  type: medium
+  type: medium  # slim / medium / big
   top:
     text: Return to top
     href: '#'

@@ -1,6 +1,4 @@
 {% if footer %}
-<footer class="usa-footer usa-footer-slim" role="contentinfo">
-
   {% if footer.last_updated %}
     <div class="usa-grid">
       <div class="usa-width-one-whole">
@@ -64,7 +62,7 @@
             {% if logo.url %}
               <a href="{{ logo.url }}">
             {% endif %}
-            <img class="usa-footer-slim-logo-img" src="{% if logo.external %}{{ logo.src }}{% else %}{{ logo.src | relative_url }}{% endif %}" alt="{{ logo.alt }}"{% if logo.width %}width="{{ logo.width }}"{% endif %}{% if logo.height %}height="{{ logo.height }}"{% endif %}>
+            <img class="" src="{% if logo.external %}{{ logo.src }}{% else %}{{ logo.src | relative_url }}{% endif %}" alt="{{ logo.alt }}"{% if logo.width %}width="{{ logo.width }}"{% endif %}{% if logo.height %}height="{{ logo.height }}"{% endif %}>
             {% if logo.url %}
               </a>
             {% endif %}
@@ -85,5 +83,4 @@
   </div>
   {% endif %}
 
-</footer>
 {% endif %}
