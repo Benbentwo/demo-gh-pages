@@ -6,8 +6,8 @@ highlighter:      rouge
 title:            OI&T DevOps Handbook
 tagline:          VA DevOps Transformation
 description:      "A comprehensive guide to the Department of Veterans Affairs DevOps Transformation"
-#url:              https://department-of-veterans-affairs.github.io/DevOps-Coms-Public/
-url:              https://department-of-veterans-affairs.github.io/DevOps-Comms_r2
+url:              https://department-of-veterans-affairs.github.io/DevOps-Coms-Public
+#url:              https://department-of-veterans-affairs.github.io/DevOps-Comms_r2
 #baseurl:          https://department-of-veterans-affairs.github.io/DevOps-Coms-Public/
 #baseurl:          https://department-of-veterans-affairs.github.io/DevOps-Comms_r2
                   # the optional subpath of your site, e.g. "/my-jekyll-site/"
@@ -23,11 +23,11 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:            0.0.2
+version:            0.1.0
 
 github:
-#  repo:             https://github.com/department-of-veterans-affairs/DevOps-Coms-Public/
-  repo:             https://github.com/department-of-veterans-affairs/DevOps-Comms_r2
+  repo:             https://github.com/department-of-veterans-affairs/DevOps-Coms-Public
+#  repo:             https://github.com/department-of-veterans-affairs/DevOps-Comms_r2
 sass:
   sass_dir: _sass
   style: compressed
