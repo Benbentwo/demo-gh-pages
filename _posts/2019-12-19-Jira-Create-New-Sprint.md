@@ -1,5 +1,3 @@
-# Jira – Create a New Sprint
-
 ## Roles Required
 * Jira User
 ## Tools Required
