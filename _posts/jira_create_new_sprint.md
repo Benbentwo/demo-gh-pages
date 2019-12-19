@@ -17,6 +17,7 @@
 ![Jira Backlog Issue](/assets/img/jira/jira_newsprint_3.png)
 
 4. Click on the Start Sprint button and a new window is displayed. On this screen, enter the Sprint Name, Goal, Duration and Start Date.
+
 ![Jira Start Sprint](/assets/img/jira/jira_newsprint_4.png)
 
 5. Click the Start button and the Sprint board is ready to use. 
