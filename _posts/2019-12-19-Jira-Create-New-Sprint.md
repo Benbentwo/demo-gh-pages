@@ -5,7 +5,7 @@
 ## Steps:
 1. If your project has no active sprints, click on the Backlog link to create a sprint. 
 
-![Jira Active Sprints](/assets/img/jira/jira_newsprint_1.png)
+![Jira Active Sprints](/DevOps-Coms-Public/assets/img/jira/jira_newsprint_1.png)
 
 2. A sprint requires a minimum of one issue to start. Drag an issue from the backlog into the sprint or click on +Create issue to create a new issue for this sprint. 
 ![Jira Backlog](/assets/img/jira/jira_newsprint_2.png)
