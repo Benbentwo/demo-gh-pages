@@ -1,4 +1,4 @@
-### Jira – Create a New Sprint
+# Jira – Create a New Sprint
 
 ## Roles Required
 * Jira User
