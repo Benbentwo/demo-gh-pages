@@ -1,12 +1,44 @@
 # main links
-main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+primary:
+  - title: Documentation
+    href: /docs/
+  - title: Navigation section
+    links:
+      - title: Demo link A
+        href: /two/a/
+      - title: Demo link B
+        href: /two/b/
+      - title: Demo link C
+        href: /two/c/
+      - title: Demo link D
+        href: /two/a/
+      - title: Demo link E
+        href: /two/b/
+      - title: Demo link F
+        href: /two/c/
+  - title: Referenced section
+    links: footer
+  - title: External link
+    href: https://18f.gsa.gov
+    external: true
+
+secondary:
+#  - title: "Sample Posts"
+#    href: /year-archive/
+#  - title: "Sample Collections"
+#    href: /collection-archive/
+#  - title: "Sitemap"
+#    href: /sitemap/
+  - title: "Posts"
+    href: /posts/
+  - title: "Categories"
+    href: /categories/
+  - title: "Tags"
+    href: /tags/
+  - title: "About"
+    href: /about/
+
+
+search:
+  enabled: true
+  text: "Search"

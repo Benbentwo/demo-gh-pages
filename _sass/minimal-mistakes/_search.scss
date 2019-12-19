@@ -11,7 +11,8 @@
 .search__toggle {
   margin-left: 1rem;
   margin-right: 1rem;
-  height: $nav-toggle-height;
+  // height was $nav-toggle-height; but I found it better to use auto, or with less code inherited.
+  //height: auto;
   border: 0;
   outline: none;
   color: $primary-color;
